@@ -4,23 +4,22 @@
  * @link {https://nuxtjs.org/guide/configuration/}
  */
 
-
 module.exports = {
   ssr: false,
   target: 'static',
   head: {
     title: 'electron-nuxt',
-    meta: [{ charset: "utf-8" }]
+    meta: [{ charset: 'utf-8' }]
   },
   loading: false,
   plugins: [
-    {ssr: true, src: '@/plugins/icons.js'},
+    { ssr: true, src: '@/plugins/icons.js' }
   ],
   buildModules: [
-    '@nuxt/typescript-build',
+    '@nuxt/typescript-build'
   ],
   modules: [
-    '@nuxtjs/vuetify',
+    '@nuxtjs/vuetify'
   ],
   build: {
     extend (config) {
@@ -35,9 +34,9 @@ module.exports = {
           primary: '#1867c0',
           secondary: '#b0bec5',
           accent: '#8c9eff',
-          error: '#b71c1c',
-        },
-      },
+          error: '#b71c1c'
+        }
+      }
     }
   }
-};
+}
