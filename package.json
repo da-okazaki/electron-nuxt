@@ -52,7 +52,7 @@
     "require-extension-hooks-vue": "0.4.2",
     "roboto-fontface": "0.10.0",
     "sass-loader": "10.0.2",
-    "vuetify": "2.5.1",
+    "vuetify": "2.6.10",
     "webpack": "4.44.2",
     "webpack-node-externals": "2.5.2"
   },
